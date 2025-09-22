@@ -11,7 +11,7 @@
 	box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0); /* fix default dash focused box-shadow*/
 	transition-duration: 100ms;
 	border-radius: 20px;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: transparent;
 }
 
@@ -28,7 +28,7 @@
 
 /* Show Apps icon */
 .show-apps .overview-icon {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 /* folders */
@@ -47,12 +47,12 @@
 .overview-tile:hover,
 .overview-tile:focus,
 .overview-tile:selected {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .overview-tile:focus {
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 /* app icons effects in dash */
@@ -65,7 +65,7 @@
 #dash .dash-item-container .overview-tile:focus .overview-icon, /* 46+ */
 #dash .dash-item-container .overview-tile:selected .overview-icon, /* 46+ */
 #dash .dash-item-container .show-apps:checked .overview-icon {
-	box-shadow: inset 0 0 4px 1px rgba(193, 178, 203, 0.4);
+	box-shadow: inset 0 0 4px 1px rgba(193, 179, 204, 0.4);
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -75,8 +75,8 @@
 .app-well-app.app-folder:drop .overview-icon,
 .app-folder.grid-search-result:drop .overview-icon,
 .overview-tile:drop { /* 46+ */
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1);
-	background-color: rgba(70, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1);
+	background-color: rgba(71, 38, 94, 0.2);
 }
 
 
@@ -85,7 +85,7 @@
 /* collapsed folder dialog */
 .app-folder-dialog {
 	border-radius: 32px;
-	background-color: rgba(25, 23, 27, 1);
+	background-color: rgba(23, 21, 25, 1);
 	border: none;
 	padding: 0; /* because of icon grid */
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
@@ -94,7 +94,7 @@
 /* folder title */
 .app-folder-dialog .folder-name-container .folder-name-label {
 	padding: 5px 7px;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	font-weight: 700;
 	transition-duration: 100ms;
 }
@@ -103,18 +103,18 @@
 .app-folder-dialog .folder-name-container .folder-name-entry {
 	font-weight: 700;
 	border: none;
-	box-shadow: inset 0 0 0 1px rgba(243, 233, 250, 0.38) !important;
-	background-color: rgba(222, 180, 253, 0.08);
-	selection-background-color: rgba(70, 38, 94, 1);
-	selected-color: rgba(243, 233, 250, 1);
+	box-shadow: inset 0 0 0 1px rgba(244, 234, 251, 0.38) !important;
+	background-color: rgba(223, 180, 253, 0.08);
+	selection-background-color: rgba(71, 38, 94, 1);
+	selected-color: rgba(244, 234, 251, 1);
 }
 
 /* edit folder name button */
 .app-folder-dialog .folder-name-container .edit-folder-button,
 .app-folder-dialog .icon-button { /* 46+ */
 	border-radius: 12px;
-	background-color: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 1);
+	background-color: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
@@ -125,13 +125,13 @@
 
 .app-folder-dialog .folder-name-container .edit-folder-button:focus,
 .app-folder-dialog .icon-button:focus {
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 
 .page-indicator .page-indicator-icon {
 	border-radius: 99px;
-	background-color: rgba(243, 233, 250, 0.67);
+	background-color: rgba(244, 234, 251, 0.67);
 }
 
 
@@ -145,16 +145,16 @@
 
 .page-navigation-arrow > StIcon {
 	margin: 0;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 .page-navigation-arrow:hover {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .page-navigation-arrow:hover > StIcon {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -167,148 +167,14 @@
 /* left and right hints on edges of the screen when dragging app icon */
 .page-navigation-hint.next:ltr,
 .page-navigation-hint.previous:rtl {
-	background-gradient-start: rgba(230, 225, 233, 0.05);
+	background-gradient-start: rgba(230, 226, 233, 0.05);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .page-navigation-hint.previous:ltr,
 .page-navigation-hint.next:rtl {
-	background-gradient-end: rgba(230, 225, 233, 0.05);
+	background-gradient-end: rgba(230, 226, 233, 0.05);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-}
-
-
-/* Dash */
-
-#dash .dash-background {
-	background-color: rgba(51, 48, 53, 0.7);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
-	border: none; /* remove black border on ubuntu */
-	padding: 4px 2px 4px 2px;
-	border-radius: 23px;
-}
-
-/* if used Dash to Dock extension */
-#dashtodockContainer #dash .dash-background {
-	border: none;
-	border-radius: 18px;
-	transition-duration: 250ms;
-}
-
-/* when dash in overview */
-#dashtodockContainer.overview #dash .dash-background {
-	box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.07);
-	background-color: rgba(255, 255, 255, 0.12);
-}
-
-/* popup label when hovering the app in dash */
-.dash-label {
-	background-color: rgba(30, 28, 32, 0.9);
-	color: rgba(243, 233, 250, 1);
-	border-radius: 12px;
-	border: 1px solid rgba(255, 255, 255, 0.07);
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
-}
-
-
-/* pill below if app is running */
-.app-well-app-running-dot,
-.app-grid-running-dot { /* 46+ */
-	width: 10px;
-	height: 4px;
-	border-radius: 2px;
-	background: rgba(193, 178, 203, 1);
-}
-
-#dash .app-grid-running-dot {
-	offset-y: -4px;
-}
-
-#dash .app-well-app:hover .app-well-app-running-dot,
-#dash .overview-tile:hover .app-grid-running-dot { /* 46+ */
-	width: 15px;
-}
-
-#dashtodockContainer .app-well-app.focused .app-well-app-running-dot,
-#dashtodockContainer .overview-tile.focused .app-grid-running-dot { /* 46+ */
-	width: 20px;
-}
-
-/* pill when default dash (not dash to dock) */
-#dash .app-well-app-running-dot {
-	margin-bottom: 6px;
-}
-
-
-/* elements in dash */
-.dash-item-container .app-well-app .overview-icon,
-.dash-item-container .show-apps .overview-icon {
-	border-radius: 21px;
-}
-
-
-/* pinned apps | running apps */
-.dash-separator {
-	box-shadow: 0 0 0 0.25px rgba(243, 233, 250, 0.38);
-}
-
-
-/* ubuntu fix */
-#dashtodockContainer #dash .app-well-app:hover .overview-icon,
-#dashtodockContainer #dash .app-well-app:focus .overview-icon,
-#dashtodockContainer #dash .app-well-app:selected .overview-icon,
-#dashtodockContainer #dash .show-apps:hover .overview-icon,
-#dashtodockContainer #dash .show-apps:focus .overview-icon,
-#dashtodockContainer .show-apps:selected .overview-icon,
-#dashtodockContainer .show-apps:selected:hover .overview-icon,
-#dashtodockContainer .show-apps:active .overview-icon,
-#dashtodockContainer .show-apps:checked .overview-icon,
-#dashtodockContainer .app-well-app.focused .overview-icon {
-	border-radius: 15px;
-}
-
-#dashtodockContainer .app-well-app.focused .overview-icon,
-#dashtodockContainer .overview-tile.focused .overview-icon, /* 46+ dash to dock focused window */
-.show-apps:selected .overview-icon,
-.show-apps:selected:hover .overview-icon,
-.show-apps:active .overview-icon,
-.show-apps:checked .overview-icon {
-	box-shadow: inset 0 0 4px 1px rgba(193, 178, 203, 0.4);
-}
-
-/* ubuntu fix */
-#dashtodockContainer.bottom.extended #dash .dash-background,
-#dashtodockContainer.bottom.extended.dashtodock #dash .dash-background,
-#dashtodockContainer.bottom.extended.shrink #dash .dash-background,
-#dashtodockContainer.top.extended #dash .dash-background,
-#dashtodockContainer.top.extended.dashtodock #dash .dash-background,
-#dashtodockContainer.top.extended.shrink #dash .dash-background,
-#dashtodockContainer.left.extended #dash .dash-background,
-#dashtodockContainer.left.extended.dashtodock #dash .dash-background,
-#dashtodockContainer.left.extended.shrink #dash .dash-background,
-#dashtodockContainer.right.extended #dash .dash-background,
-#dashtodockContainer.right.extended.dashtodock #dash .dash-background,
-#dashtodockContainer.right.extended.shrink #dash .dash-background {
-	border-radius: 0;
-	background-color: rgba(51, 48, 53, 0.7);
-	box-shadow: none;
-	transition-duration: 250ms;
-}
-
-/* animation fix when extended dash */
-#dashtodockContainer.bottom.extended.overview #dash .dash-background,
-#dashtodockContainer.bottom.extended.overview.dashtodock #dash .dash-background,
-#dashtodockContainer.bottom.extended.overview.shrink #dash .dash-background,
-#dashtodockContainer.top.extended.overview #dash .dash-background,
-#dashtodockContainer.top.extended.overview.dashtodock #dash .dash-background,
-#dashtodockContainer.top.extended.overview.shrink #dash .dash-background,
-#dashtodockContainer.left.extended.overview #dash .dash-background,
-#dashtodockContainer.left.extended.overview.dashtodock #dash .dash-background,
-#dashtodockContainer.left.extended.overview.shrink #dash .dash-background,
-#dashtodockContainer.right.extended.overview #dash .dash-background,
-#dashtodockContainer.right.extended.overview.dashtodock #dash .dash-background,
-#dashtodockContainer.right.extended.overview.shrink #dash .dash-background {
-	background-color: rgba(25, 23, 27, 1);
 }
 
 /* Check Boxes */
@@ -350,7 +216,7 @@
 }
 
 .toggle-switch:checked {
-	background-color: rgba(183, 111, 235, 1);
+	background-color: rgba(71, 38, 94, 1);
 }
 
 /* Do Not Distrub toggle */
@@ -364,7 +230,7 @@
 	width: 40px;
 	height: 22px;
 	border-radius: 9px;
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	transition-duration: 100ms;
 }
 
@@ -373,11 +239,11 @@
 }
 
 .dnd-button .toggle-switch:checked {
-	background-color: rgba(183, 111, 235, 1);
+	background-color: rgba(71, 38, 94, 1);
 }
 
 .dnd-button:hover .toggle-switch:checked {
-	background-color: rgba(199, 140, 242, 1);
+	background-color: rgba(62, 19, 93, 1);
 }
 
 .dnd-button:focus {
@@ -385,22 +251,22 @@
 }
 
 .dnd-button:focus .toggle-switch {
-	box-shadow: inset 0 0 0 1px rgba(193, 178, 203, 1) !important;
+	box-shadow: inset 0 0 0 1px rgba(193, 179, 204, 1) !important;
 }
 
 
 /* Buttons */
 
 .button {
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(222, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	transition-duration: 100ms;
 }
 
 .button:insensitive {
 	box-shadow: none;
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
@@ -410,28 +276,29 @@
 }
 
 .button:focus {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 /* clear button */
 .message-list-clear-button {
 	padding: 0 20px;
-	border-radius: 10px;
+	border-radius: 9px;
 }
 
 .message-list-clear-button:insensitive {
-	background-color: rgba(64, 60, 66, 0.2);
+	background-color: rgba(64, 61, 67, 0.2);
 }
 
 /* Sliders */
 
 .slider, 
 .level {
-	-barlevel-background-color: rgba(222, 180, 253, 0.08);
-	-barlevel-color: rgba(196,167,231,1.000);
-	color: rgba(243, 233, 250, 1); /* slider handle color (47+) */
-	-barlevel-active-background-color: rgba(196,167,231,1.000);
+	-barlevel-background-color: rgba(223, 180, 253, 0.08);
+	-barlevel-color: rgba(196,167,231,1);
+	color: rgba(244, 234, 251, 1); /* 
+ handle color (47+) */
+	-barlevel-active-background-color: rgba(196,167,231,1);
 	-barlevel-height: 16px;
 	-barlevel-border-width: 0px; /* up to 46 */
 	-slider-handle-radius: 7px;
@@ -441,7 +308,7 @@
 }
 
 .level {
-	-barlevel-active-background-color: rgba(243, 233, 250, 1);
+	-barlevel-active-background-color: rgba(244, 234, 251, 1);
 	-barlevel-height: 8px;
 }
 
@@ -457,6 +324,13 @@ StScrollView StScrollBar {
 	min-height: 8px;
 }
 
+.message-list StScrollView StScrollBar,
+.message-view StScrollView StScrollBar {
+	min-width: 3px;
+	min-height: 3px;
+}
+
+
 StScrollBar StBin#trough {
 	border-radius: 0;
 	background-color: transparent;
@@ -465,9 +339,15 @@ StScrollBar StBin#trough {
 StScrollBar StButton#vhandle,
 StScrollBar StButton#hhandle {
 	border-radius: 8px;
-	background-color: rgba(64, 57, 70, 0.75);
+	background-color: rgba(65, 57, 70, 0.75);
 	border: 3px solid transparent;
 	transition-duration: 100ms;
+}
+
+.message-list StScrollBar StButton#vhandle,
+.message-view StScrollBar StButton#hhandle {
+	border-radius: 0;
+	border: 0px solid transparent
 }
 
 StScrollBar StButton#vhandle:hover,
@@ -477,7 +357,7 @@ StScrollBar StButton#hhandle:hover {
 
 StScrollBar StButton#vhandle:active,
 StScrollBar StButton#hhandle:active {
-	background-color: rgba(91, 78, 99, 0.87);
+	background-color: rgba(91, 79, 100, 0.87);
 }
 /* Date / Time menu */
 
@@ -486,46 +366,48 @@ StScrollBar StButton#hhandle:active {
 	padding: 0;
 }
 
-/* Calendar menu side column */
-.datemenu-calendar-column {
-	spacing: 5px;
-}
+/* set padding here instead of #calendarArea for GNOME older than 46 */
+.datemenu-popover { padding: 8px;  }
 
-/* let's bring back issue #1 */
-.datemenu-calendar-column:ltr { padding-left: 0; }
-.datemenu-calendar-column:rtl {	padding-right: 0; }
+/* padding property for older gnome versions */
+.datemenu-calendar-column:ltr { margin-left: 0; padding-left: 0; }
+.datemenu-calendar-column:rtl {	margin-right: 0; padding-right: 0; }
 
-.datemenu-calendar-column .datemenu-displays-box {
-	spacing: 5px;
+.datemenu-calendar-column, /* Calendar menu side column */
+.datemenu-calendar-column .datemenu-displays-box { /* widgets below calendar */
+	spacing: 8px; 
 }
 
 
 /* today header button */
 .datemenu-today-button {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 	background-color: none;
 	border-radius: 12px;
+	margin: 0;
 }
 
 .datemenu-today-button:hover {
 	transition-duration: 100ms;
-	background-color: rgba(64, 60, 66, 0.2);
+	background-color: rgba(64, 61, 67, 0.2);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03) !important;
 }
 
 .datemenu-today-button:focus {
 	transition-duration: 100ms;
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 /* weekday label */
 .day-label {
+	color: rgba(244, 234, 251, 0.67);
 	font-weight: 600;
 }
 
 /* date label */
 .date-label {
+	color: rgba(244, 234, 251, 0.67);
 	font-weight: 700;
 }
 
@@ -534,27 +416,33 @@ StScrollBar StButton#hhandle:active {
 
 .calendar {
 	border-radius: 14px;
-	background-color: rgba(64, 60, 66, 0.2);
+	background-color: rgba(64, 61, 67, 0.2);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03) !important;
-	padding: 5px;
+	border-color: transparent;
+	padding: 3px;
+	margin: 0;
+}
+
+.calendar-month-header {
+	padding: 2px;
 }
 
 /* month header */
 .calendar-month-header .calendar-month-label {
-	color: rgba(243, 233, 250, 1) !important;
+	color: rgba(244, 234, 251, 1) !important;
 	padding: 0 !important; /* override because of gdm */
 	background-color: transparent; /* 46+ */
 }
 
-.calendar-month-header .pager-button { /* override because of gdm */
-	height: 2.2em !important;
-	width: 2.2em !important;
+.calendar-month-header .pager-button {
+	height: 2.2em;
+	width: 2.2em;
 }
 
 /* days of week */
 .calendar-day.calendar-day-heading,
 .calendar .calendar-day-heading /* 46+ */ {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 	background-color: transparent;
 	border-radius: 8px;
 }
@@ -562,11 +450,16 @@ StScrollBar StButton#hhandle:active {
 /* day buttons, prev/next month button */
 .calendar-day,
 .calendar-month-header .pager-button {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: transparent; /* 46+ */
-	border-radius: 10px;
+	border-radius: 9px;
 	padding: 0;
 	transition-duration: 100ms;
+}
+
+.calendar-day {
+	width: 2.8em;
+	height: 2.8em;
 }
 
 .calendar-day:hover,
@@ -575,15 +468,15 @@ StScrollBar StButton#hhandle:active {
 .calendar .calendar-day-heading:selected:hover, /* 46+ */
 .calendar .calendar-month-header .pager-button:hover {
 	background-color: rgba(219, 201, 232, 0.13);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .calendar-day:focus,
 .calendar .calendar-day-heading:focus, /* 46+ */
 .calendar .calendar-month-header .pager-button:focus {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 1.5px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 1.5px rgba(193, 179, 204, 1) !important;
 }
 
 .calendar-day:selected,
@@ -595,16 +488,19 @@ StScrollBar StButton#hhandle:active {
 /* today button */
 .calendar-today,
 .calendar-today:selected {
-	background-color: rgba(183, 111, 235, 1);
-	color: rgba(53, 35, 66, 1) !important;
+	background-color: rgba(71, 38, 94, 1);
+	color: rgba(244, 234, 251, 1) !important;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: rgba(71, 38, 94, 1);
+	background-gradient-end: rgba(71, 38, 94, 1);
 }
 
 .calendar-today:hover,
 .calendar-today:selected:hover,
 .calendar-today:focus,
 .calendar-today:selected:focus {
-	background-color: rgba(199, 140, 242, 1);
+	background-color: rgba(62, 19, 93, 1);
 } 
 
 /* if day has event */
@@ -622,13 +518,13 @@ StScrollBar StButton#hhandle:active {
 /* weekend day button */
 .calendar .calendar-nonwork-day, /* up to 44 */
 .calendar-weekend { /* 45+ */
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 /* other month day button */
 .calendar .calendar-other-month-day, /* up to 44 */
 .calendar-other-month { /* 45+ */
-	color: rgba(243, 233, 250, 0.38) !important;
+	color: rgba(244, 234, 251, 0.38) !important;
 }
 
 .calendar .calendar-other-month-day.calendar-day-with-events, /* up to 44 */
@@ -638,8 +534,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar .calendar-week-number {
-	background-color: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 0.67);
+	background-color: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 0.67);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	border-radius: 7px;
 }
@@ -650,9 +546,11 @@ StScrollBar StButton#hhandle:active {
 .events-button,
 .world-clocks-button,
 .weather-button {
-	background-color: rgba(64, 60, 66, 0.2);
-	color: rgba(243, 233, 250, 0.67);
+	background-color: rgba(64, 61, 67, 0.2);
+	color: rgba(244, 234, 251, 0.67);
 	border-radius: 14px;
+	margin: 0;
+	border-color: transparent;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	transition-duration: 125ms;
 }
@@ -660,14 +558,14 @@ StScrollBar StButton#hhandle:active {
 .events-button:hover,
 .world-clocks-button:hover,
 .weather-button:hover {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 }
 
 .events-button:focus,
 .world-clocks-button:focus,
 .weather-button:focus {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 .events-button:active,
@@ -680,35 +578,35 @@ StScrollBar StButton#hhandle:active {
 .weather-button .weather-header,
 .events-button .events-title,
 .world-clocks-button .world-clocks-header {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 
 /* Events section */
 .events-button .events-list {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 .events-button .event-time {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 .events-button .events-box .events-list .event-placeholder { /* if no events, 46+ */
-	color: rgba(243, 233, 250, 0.38);
+	color: rgba(244, 234, 251, 0.38);
 }
 
 /* World clocks section */
 .world-clocks-button .world-clocks-time {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 .world-clocks-button .world-clocks-city,
 .world-clocks-button .world-clocks-timezone {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 
 /* Weather section */
 .weather-button .weather-forecast-time {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 /* Entries */
@@ -719,47 +617,47 @@ StEntry,
 	padding: 8px;
 	transition-duration: 100ms;
 	border: 1px solid rgba(255, 255, 255, 0.03);
-	color: rgba(243, 233, 250, 0.67);
-	selection-background-color: rgba(70, 38, 94, 1);
-	selected-color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 0.67);
+	selection-background-color: rgba(71, 38, 94, 1);
+	selected-color: rgba(244, 234, 251, 1);
 }
 
 StEntry {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 }
 
 .search-entry {
-	background-color: rgba(64, 60, 66, 0.2);
+	background-color: rgba(64, 61, 67, 0.2);
 
 }
 
 /* icon in entry */
 StEntry StLabel {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 /* change icon color if entry not selected */
 StEntry StLabel:insensitive {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 StEntry:hover,
 StEntry:focus,
 StEntry:active {
-	border: 1px solid rgba(243, 233, 250, 0.38);
-	background-color: rgba(222, 180, 253, 0.08);
+	border: 1px solid rgba(244, 234, 251, 0.38);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: none !important;
 }
 
 StEntry:focus {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 /* On-screen keyboard */
 
 /* keyboard background */
 #keyboard {
-    background-color: rgba(25, 23, 27, 1);
-    color: rgba(243, 233, 250, 1);
+    background-color: rgba(23, 21, 25, 1);
+    color: rgba(244, 234, 251, 1);
     box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.07);
 }
 
@@ -768,44 +666,44 @@ StEntry:focus {
 .keyboard-key {
     border-radius: 15px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-    background-color: rgba(222, 180, 253, 0.08);
-    color: rgba(243, 233, 250, 1);
+    background-color: rgba(223, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 1);
     transition-duration: 75ms;
 }
 
 .keyboard-key:hover { background-color: rgba(219, 201, 232, 0.13); }
 .keyboard-key:active { background-color: rgba(219, 201, 232, 0.2); }
-.keyboard-key:checked { background-color: rgba(183, 111, 235, 1); }
+.keyboard-key:checked { background-color: rgba(184, 111, 235, 1); }
 
 
 /* non-character keys */ 
 .keyboard-key.default-key {
-    color: rgba(53, 35, 66, 1);
-    background-color: rgba(183, 111, 235, 1);
+    color: rgba(244, 234, 251, 1);
+    background-color: rgba(71, 38, 94, 1);
 }
 
-.keyboard-key.default-key:hover { background-color: rgba(199, 140, 242, 1); }
+.keyboard-key.default-key:hover { background-color: rgba(62, 19, 93, 1); }
 
 .keyboard-key.default-key:active,
 .keyboard-key.default-key:checked {
-    background-color: rgba(216, 163, 254, 1);
+    background-color: rgba(51, 13, 79, 1);
 }
 
 /* ctrl / alt / shift */
 .keyboard-key.default-key:latched,
 .keyboard-key.shift-key-uppercase {
     border-color: rgba(255, 255, 255, 0.03);
-    background-color: rgba(216, 163, 254, 1);
+    background-color: rgba(51, 13, 79, 1);
 }
 
 
 /* long press on key popup */
 .keyboard-subkeys {
     -arrow-border-radius: 18px;
-    -arrow-background-color: rgba(25, 23, 27, 1);
+    -arrow-background-color: rgba(23, 21, 25, 1);
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(255, 255, 255, 0.07);
-    color: rgba(243, 233, 250, 1);
+    color: rgba(244, 234, 251, 1);
     padding: 6px;
 }
 
@@ -823,7 +721,7 @@ StEntry:focus {
 
 .emoji-panel .keyboard-key:latched {
     border-color: rgba(255, 255, 255, 0.03);
-    background-color: rgba(216, 163, 254, 1);
+    background-color: rgba(51, 13, 79, 1);
 }
 
 
@@ -833,14 +731,14 @@ StEntry:focus {
     min-height: 22pt;
     padding: 0;
     padding-top: 6px; /* same as keyboard buttons padding */
-    color: rgba(53, 35, 66, 1);
+    color: rgba(244, 234, 251, 1);
 }
 
 /* suggestion button */
 .word-suggestions StButton {
     border-radius: 10px;
     padding: 0px 15px;
-    color: rgba(243, 233, 250, 1);
+    color: rgba(244, 234, 251, 1);
     transition-duration: 100ms;
 }
 
@@ -848,7 +746,7 @@ StEntry:focus {
 .word-suggestions StButton:active,
 .word-suggestions StButton:checked {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-    background-color: rgba(222, 180, 253, 0.08);
+    background-color: rgba(223, 180, 253, 0.08);
 }
 /* Lock Screen / Login screen */
 
@@ -857,13 +755,13 @@ StEntry:focus {
 }
 
 .login-dialog {
-    background-color: rgba(23, 21, 24, 1);
+    background-color: rgba(23, 21, 25, 1);
 }
 
 /* fixes color of process-working */
 .login-dialog,
 .unlock-dialog {
-    color: rgba(243, 233, 250, 1);
+    color: rgba(244, 234, 251, 1);
 }
 
 
@@ -871,17 +769,17 @@ StEntry:focus {
 .login-dialog .login-dialog-message-warning,
 .unlock-dialog .caps-lock-warning-label,
 .unlock-dialog .login-dialog-message-warning {
-  color: rgba(243, 233, 250, 0.67);
+  color: rgba(244, 234, 251, 0.67);
 }
 
 
 /* not listed button */
 .login-dialog-not-listed-label {
-    color: rgba(243, 233, 250, 0.67);
+    color: rgba(244, 234, 251, 0.67);
 }
 .login-dialog-not-listed-button:focus .login-dialog-not-listed-label, 
 .login-dialog-not-listed-button:hover .login-dialog-not-listed-label {
-    color: rgba(243, 233, 250, 1); 
+    color: rgba(244, 234, 251, 1); 
 }
 .login-dialog-not-listed-button:focus .login-dialog-not-listed-label {
     text-decoration: underline;
@@ -890,7 +788,7 @@ StEntry:focus {
 
 /* users button */
 .login-dialog-user-list .login-dialog-user-list-item {
-    background-color: rgba(64, 60, 66, 0.2);
+    background-color: rgba(64, 61, 67, 0.2);
     border-radius: 20px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
@@ -900,87 +798,89 @@ StEntry:focus {
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:hover {
-    background-color: rgba(152, 65, 214, 1);
+    background-color: rgba(153, 66, 215, 1);
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:focus,
 .login-dialog-user-list:expanded .login-dialog-user-list-item:selected {
-    background-color: rgba(152, 65, 214, 1);
-    /* color: rgba(53, 35, 66, 1); don't work*/
+    background-color: rgba(153, 66, 215, 1);
+    /* color: rgba(244, 234, 251, 1); don't work*/
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
 }
 
 .login-dialog-user-list:expanded .login-dialog-user-list-item:focus:hover,
 .login-dialog-user-list:expanded .login-dialog-user-list-item:selected:hover {
-    background-color: rgba(152, 65, 214, 0.8);
+    background-color: rgba(153, 66, 215, 0.8);
 }
 
 
 /* login buttons */
-.login-dialog-button.cancel-button,
-.login-dialog-button.switch-user-button,
-.login-dialog-button.login-dialog-session-list-button {
-    background-color: rgba(222, 180, 253, 0.08);
-    color: rgba(243, 233, 250, 1);
+.cancel-button,
+.switch-user-button,
+.login-dialog-session-list-button {
+    background-color: rgba(223, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 1);
+    padding: 12px;
+    min-height: 16px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
     border-radius: 99px;
     transition-duration: 100ms;
 }
 
-.login-dialog-button.cancel-button:hover,
-.login-dialog-button.switch-user-button:hover,
-.login-dialog-button.login-dialog-session-list-button:hover {
+.cancel-button:hover,
+.switch-user-button:hover,
+.login-dialog-session-list-button:hover {
     background-color: rgba(219, 201, 232, 0.13);
 }
 
-.login-dialog-button.cancel-button:focus,
-.login-dialog-button.switch-user-button:focus,
-.login-dialog-button.login-dialog-session-list-button:focus {
+.cancel-button:focus,
+.switch-user-button:focus,
+.login-dialog-session-list-button:focus {
     background-color: rgba(219, 201, 232, 0.13);
-    box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+    box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
-.login-dialog-button.cancel-button:focus:active,
-.login-dialog-button.switch-user-button:focus:active,
-.login-dialog-button.login-dialog-session-list-button:focus:active,
-.login-dialog-button.cancel-button:focus:hover,
-.login-dialog-button.switch-user-button:focus:hover,
-.login-dialog-button.login-dialog-session-list-button:focus:hover {
+.cancel-button:focus:active,
+.switch-user-button:focus:active,
+.login-dialog-session-list-button:focus:active,
+.cancel-button:focus:hover,
+.switch-user-button:focus:hover,
+.login-dialog-session-list-button:focus:hover {
     background-color: rgba(219, 201, 232, 0.13);
-    box-shadow: inset 0 0 0 1px rgba(193, 178, 203, 1) !important;
+    box-shadow: inset 0 0 0 1px rgba(193, 179, 204, 1) !important;
 }
 
-.login-dialog-button.cancel-button:active,
-.login-dialog-button.switch-user-button:active,
-.login-dialog-button.login-dialog-session-list-button:active {
+.cancel-button:active,
+.switch-user-button:active,
+.login-dialog-session-list-button:active {
     background-color: rgba(219, 201, 232, 0.13);
 }
 
 
 /* password */
 .login-dialog-prompt-entry {
-    background-color: rgba(222, 180, 253, 0.08);
-    color: rgba(243, 233, 250, 1);
+    background-color: rgba(223, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 1);
     border: none;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .login-dialog-prompt-entry:focus {
-    background-color: rgba(222, 180, 253, 0.08) !important;
+    background-color: rgba(223, 180, 253, 0.08) !important;
     border: none;
-    box-shadow: inset 0 0 0 1px rgba(243, 233, 250, 0.38) !important;
-    border-color: rgba(243, 233, 250, 0.38);
+    box-shadow: inset 0 0 0 1px rgba(244, 234, 251, 0.38) !important;
+    border-color: rgba(244, 234, 251, 0.38);
 }
 
 .login-dialog-prompt-entry:insensitive {
-    background-color: rgba(222, 180, 253, 0.08);
-    color: rgba(243, 233, 250, 0.38);
+    background-color: rgba(223, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 0.38);
 }
 
 
 /* Clock */
 .unlock-dialog-clock {
-  color: rgba(243, 233, 250, 1);
+  color: rgba(244, 234, 251, 1);
   spacing: 1em;
 }
 
@@ -998,7 +898,7 @@ StEntry:focus {
     margin-top: 1em;
     font-weight: 600; 
     font-size: 10pt;
-    color: rgba(243, 233, 250, 0.67);
+    color: rgba(244, 234, 251, 0.67);
 }
 
 
@@ -1007,8 +907,8 @@ StEntry:focus {
 .unlock-dialog-notifications-container .unlock-dialog-notification-source {
     padding: 12px 16px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-    background-color: rgba(222, 180, 253, 0.08);
-    color: rgba(243, 233, 250, 1);
+    background-color: rgba(223, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 1);
     border-radius: 16px;
 }
 .unlock-dialog-notifications-container .notification.critical,
@@ -1018,8 +918,8 @@ StEntry:focus {
 
 /* messages counter */
 .unlock-dialog-notification-count-text {
-    color: rgba(243, 233, 250, 0.67);
-    background-color: rgba(222, 180, 253, 0.08);
+    color: rgba(244, 234, 251, 0.67);
+    background-color: rgba(223, 180, 253, 0.08);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
     border-radius: 99px; 
 }
@@ -1027,7 +927,7 @@ StEntry:focus {
 
 /* User widget */
 .user-widget .user-widget-label {
-    color: rgba(243, 233, 250, 1); 
+    color: rgba(244, 234, 251, 1); 
 }
 /* Looking Glass | R.I.P. custom colors & light mode */
 
@@ -1059,7 +959,7 @@ StEntry:focus {
 	color: white;
 	border-color: rgba(255, 255, 255, 0.2);
 	min-height: 16px;
-	selection-background-color: rgba(70, 38, 94, 1);
+	selection-background-color: rgba(71, 38, 94, 1);
 	selected-color: #fff;
 }
 
@@ -1082,109 +982,160 @@ StEntry:focus {
 }
 
 /* dnd and clear button */
-.message-list-controls:ltr { padding: auto 0 auto auto; }
-.message-list-controls:rtl { padding: auto auto auto 0; }
+.message-list-controls:ltr { padding: auto 5px 0 6px; }
+.message-list-controls:rtl { padding: auto 6px 0 5px; }
 
 /* "No Notifications" text */
 .message-list-placeholder {
-	color: rgba(243, 233, 250, 0.38);
+	color: rgba(244, 234, 251, 0.38);
 	font-weight: 700;
 }
 
-/* remove right margin in message list section (datemenu) */
-.message-list-sections:ltr { margin-right: 0; }
-.message-list-sections:rtl { margin-left: 0; }
+/* remove right margin in message list section (datemenu) (a.k.a scrollbar) */
+.message-list:ltr,
+.message-list-sections:ltr, /* up to 47 */
+.message-view:ltr { /* 48+ */
+	margin-right: 1px;
+	padding-right: 5px;
+}
+.message-list:rtl, .message-list-sections:rtl, .message-view:rtl { 
+	margin-left: 1px;
+	padding-left: 5px;
+}
 
 
 /* popup messages */
 .message {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	border-radius: 18px;
 }
 
-
 /* Message OSD */
 .notification-banner {
-	background-color: rgba(25, 23, 27, 1);
-	color: rgba(243, 233, 250, 1);
+	background-color: rgba(23, 21, 25, 1);
+	color: rgba(244, 234, 251, 1);
 	border: 1px solid rgba(255, 255, 255, 0.07);
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
 }
 
-
 /* messages in menus */
-.message-list .message, .popup-menu-content .message {
-	background-color: rgba(64, 60, 66, 0.2);
+.message-list .message, 
+.popup-menu-content .message, 
+.message-view .message { /* 48+ */
+	background-color: rgba(64, 61, 67, 0.2);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-	border-radius: 15px;
+	border: 0;
+	margin: 0; /* fix margins for GNOME older than 46 */
+	margin-bottom: 9px !important;
+	border-radius: 13px;
 	transition-duration: 100ms;
 }
 .message-list .message:hover {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 }
 .message-list .message:focus {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
+}
+
+.message-view .message {
+	background-color: rgba(36, 34, 38, 0.95);
+}
+
+.message:second-in-stack {
+	background-color: rgba(28, 26, 30, 0.95);
+}
+
+.message:lower-in-stack {
+	background-color: rgba(26, 24, 27, 0.9);
+}
+
+.message-view .message:hover {
+	background-color: rgba(44, 39, 48, 0.95);
 }
 
 /* text / header in message */
 .message .message-body,
 .message-title {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 /* message time stamp */
 .message .message-secondary-bin > .event-time {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 /* message title on 46+ */
 .message .message-header .message-source-icon,
 .message .message-header .message-header-content .message-source-title,
 .message .message-header .message-header-content .event-time {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
+	padding-bottom: 0;
 }
 
+/* that's much better than adding "margin: $base_padding * 0.5;" to .message-close-button */
+.message-close-button { margin: 0; }
+.message-header:ltr > :last-child { margin-right: 2px; }
+.message-header:rtl > :first-child { margin-left: 2px; }
 
 /* close button, expand button (46+) */
 .message-close-button,
-.message-expand-button {
-	border-radius: 99px;
-	padding: 5px;
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(222, 180, 253, 0.08);
+.message-expand-button,
+.message-collapse-button { /* collapse group of messages button */
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	transition-duration: 100ms;
+	border-radius: 99px;
 }
 
+.message-collapse-button {
+	border: 0;
+	padding: 6px !important;
+	margin: 2px;
+}
+
+.message-close-button,.message-expand-button { padding: 5px; }
+
 .message-close-button:hover,
-.message-expand-button:hover {
+.message-expand-button:hover,
+.message-collapse-button:hover {
 	background-color: rgba(219, 201, 232, 0.13);
 }
 
 .message-close-button:active,
-.message-expand-button:active {
-	color: rgba(243, 233, 250, 0.67);
+.message-expand-button:active,
+.message-collapse-button:active {
+	color: rgba(244, 234, 251, 0.67);
+}
+
+/* message buttons */
+.message-list .message-action-bin { padding: 2px; }
+.message-action-bin StBoxLayout { spacing: 0; }
+
+.message-list .message-action-bin * {
+	border-radius: 9px;
+	font-size: 14px;
 }
 
 
 /* Media Controls */
 .message-media-control {
-	border-radius: 12px;
+	border-radius: 9px;
 	/* currently disabled because of 46 */
 	/* padding: 0 14px; */
 	/* margin: 20px 2px; */
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	transition-duration: 100ms;
 }
 
 .message-media-control:hover {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
-.message-media-control:insensitive { color: rgba(243, 233, 250, 0.38); }
+.message-media-control:insensitive { color: rgba(244, 234, 251, 0.38); }
 
 /* fix margin for last button */
 /* currently disabled because of 46 */
@@ -1205,7 +1156,7 @@ StEntry:focus {
 /* when there is no artwork */
 .media-message-cover-icon.fallback,
 .media-message .message-icon.message-themed-icon { /* 46+ */
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: rgba(219, 201, 232, 0.13);
 	border: 1px solid rgba(255, 255, 255, 0.03);
 	border-radius: 15px;
@@ -1218,15 +1169,133 @@ StEntry:focus {
 
 
 /* URLs in messages */
-.url-highlighter { link-color: rgba(193, 178, 203, 1); }
+.url-highlighter { link-color: rgba(193, 179, 204, 1); }
+/* Modal dialog */
+.modal-dialog {
+	border-radius: 20px;
+	padding: 12px;
+	background-color: rgba(23, 21, 25, 1);
+	border: none;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+	color: rgba(244, 234, 251, 1);
+}
+
+.end-session-dialog {
+	width: 28em;
+}
+
+/* user avatar */
+.user-icon {
+	border-radius: 999px;
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(223, 180, 253, 0.08);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
+}
+
+.user-icon.user-avatar {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+/* password entry */
+.prompt-dialog-password-entry {
+	background-color: rgba(64, 61, 67, 0.2);
+	padding: 8px !important;
+}
+
+
+/* button in modals */
+.modal-dialog-linked-button, /* 46 */
+.modal-dialog-button-box .modal-dialog-button, /* 47+ */
+.notification-button {
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+	border-radius: 12px;
+	background-color: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
+	animation-duration: 100ms;
+}
+
+.modal-dialog-linked-button,
+.modal-dialog-button-box .modal-dialog-button {
+	padding: 9px 0 !important;
+	border-radius: 10px;
+}
+
+.notification-button {
+	padding: 7px 12px;
+	border-radius: 10px;
+}
+
+/* see button spacing in ..46 and 47.. */
+
+.modal-dialog-linked-button:hover,
+.modal-dialog-linked-button:focus,
+.notification-button:hover,
+.notification-button:focus {
+	background-color: rgba(219, 201, 232, 0.13);
+	color: rgba(244, 234, 251, 1);
+}
+
+.modal-dialog-linked-button:ltr:last-child,
+.modal-dialog-linked-button:rtl:first-child,
+.modal-dialog-button-box .modal-dialog-button:ltr:last-child,
+.modal-dialog-button-box .modal-dialog-button:rtl:first-child {
+	background-color: rgba(71, 38, 94, 1);
+	color: rgba(244, 234, 251, 1);
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: rgba(71, 38, 94, 1);
+	background-gradient-end: rgba(71, 38, 94, 1)
+}
+
+.modal-dialog-linked-button:ltr:last-child:hover,
+.modal-dialog-linked-button:ltr:last-child:focus,
+.modal-dialog-linked-button:rtl:first-child:hover,
+.modal-dialog-linked-button:rtl:first-child:focus,
+.modal-dialog-button-box .modal-dialog-button:ltr:last-child:hover,
+.modal-dialog-button-box .modal-dialog-button:ltr:last-child:focus,
+.modal-dialog-button-box .modal-dialog-button:rtl:first-child:hover,
+.modal-dialog-button-box .modal-dialog-button:rtl:first-child:focus {
+	background-color: rgba(62, 19, 93, 1);
+}
+
+
+.modal-dialog-linked-button:focus,
+.modal-dialog-button-box .modal-dialog-button:focus{
+	animation-duration: 100ms;
+	box-shadow: inset 0 0 0 2px rgba(244, 234, 251, 0.38) !important;
+}
+
+.modal-dialog-linked-button:focus:hover,
+.notification-button:focus:hover,
+.modal-dialog-button-box .modal-dialog-button:focus:hover,
+.modal-dialog-linked-button:focus:active,
+.notification-button:focus:active,
+.modal-dialog-button-box .modal-dialog-button:focus:active {
+	box-shadow: inset 0 0 0 2px rgba(244, 234, 251, 0.67) !important;
+}
+
+.modal-dialog .modal-dialog-linked-button:insensitive,
+.notification-banner .notification-button:insensitive,
+.modal-dialog-button-box .modal-dialog-button:insensitive {
+	color: rgba(244, 234, 251, 0.67);
+	background-color: rgba(71, 38, 94, 0.6);
+}
+
+
+.modal-dialog-linked-button:ltr:last-child:insensitive,
+.modal-dialog-linked-button:rtl:first-child:insensitive,
+.modal-dialog-button-box .modal-dialog-button:ltr:last-child:insensitive,
+.modal-dialog-button-box .modal-dialog-button:rtl:first-child:insensitive {
+	background-color: rgba(71, 38, 94, 0.6);
+	color: rgba(244, 234, 251, 0.67);
+}
 /* OSD */
 
 .switcher-list, /* alt + tab */
 .resize-popup, /* i dunno what is that :( */
-.workspace-switcher, /* ctrl + alt + arr_left/arr_right  */
 .osd-window /* volume/brightness/.. switcher */ {
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(25, 23, 27, 1);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(23, 21, 25, 1);
 	border: 1px solid rgba(255, 255, 255, 0.07);
 	border-radius: 20px;
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
@@ -1242,7 +1311,7 @@ StEntry:focus {
 .switcher-list .item-box {
 	border-radius: 22px;
 	padding: 8px;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	border: 3px solid transparent;
 	background-color: transparent;
 }
@@ -1252,201 +1321,58 @@ StEntry:focus {
 .switcher-list .item-box:selected,
 .switcher-list .item-box:outlined {
 	background-color: rgba(219, 201, 232, 0.13);
-	/* box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1); */
-	border: 3px solid rgba(193, 178, 203, 1);
+	/* box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1); */
+	border: 3px solid rgba(193, 179, 204, 1);
 }
 
 
 /* arrow if app has multiple windows */
 .switcher-arrow {
-  color: rgba(243, 233, 250, 0.38);
+  color: rgba(244, 234, 251, 0.38);
   border-color: transparent;
 }
 
 .switcher-arrow:highlighted {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 
 /* ctrl + alt + arr_left/arr_right */
 .ws-switcher-indicator {
-	background-color: rgba(243, 233, 250, 0.67);
+	background-color: rgba(244, 234, 251, 0.67);
 	border-radius: 99px;
 	padding: 2.5px;
 	margin: 7.5px 5px;
 }
 
 .ws-switcher-indicator:active {
-	background-color: rgba(243, 233, 250, 1);
+	background-color: rgba(244, 234, 251, 1);
 	padding: 5px 20px;
 	margin: 5px;
 }
 
-
-/* Modal dialog */
-.modal-dialog {
-	border-radius: 20px;
-	padding: 12px;
-	background-color: rgba(25, 23, 27, 1);
-	border: none;
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-	color: rgba(243, 233, 250, 1);
-}
-
-.end-session-dialog {
-	width: 28em;
-}
-
-/* user avatar */
-.user-icon {
-	border-radius: 999px;
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(222, 180, 253, 0.08);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07);
-}
-
-.user-icon.user-avatar {
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
-}
-
-
-/* password entry */
-.prompt-dialog-password-entry {
-	background-color: rgba(64, 60, 66, 0.2);
-}
-
-
-/* button in modals */
-.modal-dialog-linked-button, /* 46 */
-.modal-dialog-button-box .modal-dialog-button, /* 47+ */
-.notification-button {
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-	background-color: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 1);
-	animation-duration: 100ms;
-}
-
-.modal-dialog-button-box .modal-dialog-button:focus {
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
-}
-
-.modal-dialog-linked-button {
-	padding: 10px 0;
-	border-radius: 12px;
-}
-
-.notification-button {
-	padding: 7px 12px;
-	border-radius: 10px;
-}
-
-/* see button spacing in ..46 and 47.. */
-
-.modal-dialog-linked-button:hover,
-.modal-dialog-linked-button:focus,
-.notification-button:hover,
-.notification-button:focus {
-	background: rgba(219, 201, 232, 0.13);
-	color: rgba(243, 233, 250, 1);
-}
-
-.modal-dialog-linked-button:last-child {
-	background-color: rgba(183, 111, 235, 1);
-	color: rgba(53, 35, 66, 1);
-}
-
-.modal-dialog-linked-button:last-child:hover,
-.modal-dialog-linked-button:last-child:focus {
-	background-color: rgba(199, 140, 242, 1);
-}
-
-.modal-dialog-linked-button:focus {
-	animation-duration: 100ms;
-	box-shadow: inset 0 0 0 1px rgba(243, 233, 250, 0.38) !important;
-}
-
-.modal-dialog-linked-button:focus:hover,
-.notification-button:focus:hover,
-.modal-dialog-linked-button:focus:active,
-.notification-button:focus:active {
-	box-shadow: inset 0 0 0 1px rgba(243, 233, 250, 0.67) !important;
-}
-
-.modal-dialog .modal-dialog-linked-button:insensitive,
-.notification-banner .notification-button:insensitive {
-	color: rgba(28, 7, 43, 0.67);
-	background-color: rgba(183, 111, 235, 0.5);
-}
 /* Overview */
-
-#overviewGroup, /* overview background */
-.workspace-animation { /* spacing between worspaces (ctrl+alt+arr_left/right / 3 fingers gesture) */
-	background-color: rgba(23, 21, 24, 1);
-}
-
-/* workspaces */
-.workspace-background {
-	border-radius: 20px;
-	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* running app icon (in workspaces) */
-.icon-dropshadow { icon-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4); }
-
-/* selected window titles (in workspaces) */
-.window-caption {
-	spacing: 20px;
-	border-radius: 12px;
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(30, 28, 32, 0.9);
-	border: 1px solid rgba(255, 255, 255, 0.03);
-	padding: 4px 8px;
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
-}
-
 
 /* Activities Ripple (Settings - Multitasking - Hot Corner) */
 .ripple-box {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: 0 0 2px 2px rgba(70, 38, 94, 0.2);
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: 0 0 2px 2px rgba(71, 38, 94, 0.2);
 	border-radius: 0  0 99px 0;
 }
 
 
-/* thumbnails on overview (workspaces list under search) */
-.workspace-thumbnail {
-	background-color: rgba(222, 180, 253, 0.08) !important;
-	border-radius: 4px;
-	border: 1px solid rgba(255, 255, 255, 0.03) !important;
-}
-
-/* drag and drop indicator */
-.workspace-thumbnails .placeholder {
-	background-image: url("workspace-placeholder.svg");
-	background-size: contain;
-	width: 18px;
-}
-
-/* selected indicator */
-.workspace-thumbnail-indicator {
-	background-color: rgba(70, 38, 94, 0.2);
-	border-color: rgba(243, 233, 250, 0.38);
-	border-width: 1px;
-	border-radius: 3px;
-}
-
 
 /* Tiled window previews */
 .tile-preview {
-	background-color: rgba(70, 38, 94, 0.2);
-	border: 1px solid rgba(183, 111, 235, 1);
+	background-color: rgba(71, 38, 94, 0.2);
+	border: 1px solid rgba(71, 38, 94, 1);
 }
 
 /* .windows-close in screenshot.css */
 /* Panel */
 
 #panel {
-	background-color: rgba(23, 21, 24, 1);
+	background-color: rgba(23, 21, 25, 1);
 	height: 34px;
 	font-size: 13px;
 	box-shadow: none;
@@ -1465,20 +1391,20 @@ StEntry:focus {
 }
 
 /* allows to shrink horizontal padding for app icons */
-.panel-button { -natural-hpadding: 6px; }
+.panel-button { -natural-hpadding: 6px !important; }
 .panel-status-indicators-box:first-child { padding-left: 3px; }
 .panel-status-indicators-box:last-child { padding-right: 3px; }
 .panel-status-indicators-box:first-child:last-child { padding: 0; }
-.panel-button#panelActivities { -natural-hpadding: 10px; }
+.panel-button#panelActivities { -natural-hpadding: 10px !important; }
 
 /* panel buttons */
 .panel-button,
 .panel-button .clock { /* DND / new messages icon */
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	border-radius: 9px;
-	border-width: 0px;
-	background-color: rgba(222, 180, 253, 0.08);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(255, 255, 255, 0.04) !important;
+	background-color: rgba(223, 180, 253, 0.08);
+	box-shadow: none;
 }
 
 .panel-button:hover,
@@ -1486,12 +1412,6 @@ StEntry:focus {
 .panel-button:active,
 .panel-button:active .clock {
 	background-color: rgba(219, 201, 232, 0.13);
-}
-
-/* workspaces indicator in activities button (45+) */
-#panel .workspace-dot {
-	background-color: rgba(243, 233, 250, 1);
-	border-radius: 99px;
 }
 
 /*  indicator for active */
@@ -1525,14 +1445,15 @@ StEntry:focus {
 #panel.unlock-screen .panel-button,
 #panel.login-screen .panel-button,
 #panel:overview .panel-button {
-	color: rgba(243, 233, 250, 1) !important;
+	color: rgba(244, 234, 251, 1) !important;
 }
 
 
 /* panel clock fix. remove additional background */
 .clock-display { 
 	background-color: transparent !important;
-	box-shadow: none !important;
+	box-shadow: none;
+	border: none !important;
 }
 
 /* additional background for DND / new messages icon */
@@ -1542,11 +1463,11 @@ StEntry:focus {
 }
 /* Popovers */
 
-.popup-menu-content, /* popover content */
-.candidate-popup-content { /* datemenu, quick settings... */
-	color: rgba(243, 233, 250, 1);
-	background: rgba(25, 23, 27, 1); 
+.popup-menu-content { /* popovers, datemenu, quick settings... */
+	color: rgba(244, 234, 251, 1);
+	background: rgba(23, 21, 25, 1); 
 	padding: 8px;
+	margin: 5px 0; /* for panel popovers */
 	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.07);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);	
@@ -1554,10 +1475,13 @@ StEntry:focus {
 
 .popup-menu-item, /* menu items */
 .app-menu { /* right-click (and panel) app menu */
-	margin: 3px 0;
 	border-radius: 12px;
-	padding: 8px 10px;
 	transition-duration: 150ms;
+}
+
+.popup-menu-item {
+	margin: 3px 0;
+	padding: 8px 10px;
 }
 
 .popup-menu-item:first-child { margin: 0 0 3px 0; }
@@ -1567,9 +1491,9 @@ StEntry:focus {
 .popup-menu-item:focus,
 .popup-menu-item:hover,
 .popup-menu-item:checked {
-	background-color: rgba(222, 180, 253, 0.08) !important;
+	background-color: rgba(223, 180, 253, 0.08) !important;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03) !important;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 .popup-menu-item:checked {
@@ -1578,7 +1502,7 @@ StEntry:focus {
 
 .popup-menu-item:active {
 	background-color: rgba(219, 201, 232, 0.13);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 /* 44 separator margin fix */
@@ -1595,8 +1519,8 @@ StEntry:focus {
 
 /* popover submenus */
 .popup-sub-menu {
-	background-color: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 1);
+	background-color: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	border-radius: 0 0 12px 12px;
 	border: none;
@@ -1605,7 +1529,7 @@ StEntry:focus {
 /* submenu items */
 .popup-sub-menu .popup-menu-item {
 	margin: 0;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: transparent;
 	border-radius: 0;
 }
@@ -1621,18 +1545,18 @@ StEntry:focus {
 }
 
 .popup-menu-item:insensitive {
-	color: rgba(243, 233, 250, 0.38);
+	color: rgba(244, 234, 251, 0.38);
 	margin: 0;
 }
 
 /* all other graphical elements (sliders), OpenWeather Extension */
 .popup-inactive-menu-item {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: transparent;
 }
 
 .popup-inactive-menu-item:insensitive {
-	color: rgba(243, 233, 250, 0.67) !important;
+	color: rgba(244, 234, 251, 0.67) !important;
 }
 /* Quick Settings */
 
@@ -1640,14 +1564,14 @@ StEntry:focus {
 .quick-settings {
 	padding: 15px;
 	border-radius: 24px;
-	background-color: 	rgba(25,23,36,1.000)
+	background-color: 	rgba(25,23,36,1)
 }
 
 
 /* screenshot / settings / lock / power options; part of quick-toggle-arrow [44-47] quick-toggle-menu-button [48+] */
 .icon-button {
-	background-color: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 1);
+	background-color: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
 	transition-duration: 100ms;
 	border-radius: 99px;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
@@ -1660,19 +1584,21 @@ StEntry:focus {
 .icon-button:focus,
 .quick-toggle:focus,
 .slider-bin:focus {
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1) !important;
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1) !important;
 }
 
 
 /* toggles in QS */
 .quick-toggle, /* 43 */
 .quick-menu-toggle .quick-toggle, /* 44-47 */
-.quick-toggle-has-menu .quick-toggle{ /* 48+ */
-	color: rgba(243, 233, 250, 1);
+.quick-toggle-has-menu .quick-toggle { /* 48+ */
+	color: rgba(244, 234, 251, 1);
 	border-radius: 15px;
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	transition-duration: 100ms;
 }
+
+.quick-toggle-has-menu .quick-toggle-separator { width: 0; } /* margins are set in below for backward compatibility */
 
 /* toggle name */
 .quick-toggle .quick-toggle-label {
@@ -1714,7 +1640,7 @@ StEntry:focus {
 .quick-menu-toggle .quick-toggle-arrow:hover,
 .quick-toggle-has-menu .quick-toggle:hover,
 .quick-toggle-has-menu .quick-toggle-menu-button:hover {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: rgba(219, 201, 232, 0.13);
 }
 
@@ -1724,7 +1650,7 @@ StEntry:focus {
 .quick-toggle-has-menu .quick-toggle:checked,
 .quick-toggle-has-menu .quick-toggle-menu-button:checked {
 	color: rgba(53, 35, 66, 1);
-	background-color: 	rgba(235,111,146,1.000);
+	background-color: rgba(235,111,146,1);
 	border-color: transparent;
 }
 
@@ -1743,12 +1669,12 @@ StEntry:focus {
 .quick-slider .slider-bin {
 	padding: 4px;
 	margin: 0;
-	color: rgba(196,167,231,1.000); /* up tp 46 */
+	color: rgba(196,167,231,1); /* up tp 46 */
 	border-radius: 99px;
 }
 
 .quick-slider .slider-bin:focus {
-	background-color: 	rgba(196,167,231,1.000);
+	background-color: rgba(196,167,231,1);
 }
 
 /* quick slider icon */
@@ -1771,8 +1697,8 @@ StEntry:focus {
 /* overrides because of 
 https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0ecd66efd50a1#fb75f14505e58d3bc51f2498ef328d1405d89e83_94_95 */
 .quick-toggle-menu {
-	background-color: 		rgba(31,29,46,1.000)!important; 
-	color: rgba(243, 233, 250, 1) !important;
+	background-color: rgba(23, 21, 25, 1) !important; 
+	color: rgba(244, 234, 251, 1) !important;
 	border-radius: 18px;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
   	margin: 12px auto;
@@ -1781,20 +1707,23 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 /* header icon in expanded menu */
 .quick-toggle-menu .header .icon {
 	background-color: rgba(219, 201, 232, 0.13);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	border-radius: 12px;
 	icon-size: 1.4em;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .quick-toggle-menu .header .icon.active {
-	background-color: rgba(183, 111, 235, 1);
-	color: rgba(53, 35, 66, 1);
+	background-color: rgba(71, 38, 94, 1);
+	color: rgba(244, 234, 251, 1);
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: rgba(71, 38, 94, 1);
+	background-gradient-end: rgba(71, 38, 94, 1);
 }
 
 /* connect / disconnect text color (expanded menu) */
 .device-subtitle {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 
@@ -1806,24 +1735,24 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 .background-apps-quick-toggle:hover {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 }
 
 .background-apps-quick-toggle:focus {
-	background-color: rgba(222, 180, 253, 0.08);
-	box-shadow: inset 0 0 0 2px rgba(193, 178, 203, 1);
+	background-color: rgba(223, 180, 253, 0.08);
+	box-shadow: inset 0 0 0 2px rgba(193, 179, 204, 1);
 }
 
 /* background app name */
 .background-app-item .title {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	font-weight: 600;
 }
 
 /* close button */
 .background-app-item .close-button {
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(222, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(223, 180, 253, 0.08);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
@@ -1835,8 +1764,8 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* main screenshot panel section */
 .screenshot-ui-panel {
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(25, 23, 27, 1);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(23, 21, 25, 1);
 	border: 1px solid rgba(255, 255, 255, 0.07);
 	border-radius: 22px;
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
@@ -1844,7 +1773,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 .screenshot-ui-show-pointer-button, /* show pointer */
 .screenshot-ui-type-button { /* Selection / Screen / Window */
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 	background-color: transparent;
 	border-radius: 15px;
 	transition-duration: 100ms;
@@ -1854,8 +1783,8 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 .screenshot-ui-type-button:hover,
 .screenshot-ui-show-pointer-button:focus,
 .screenshot-ui-type-button:focus {
-	background: rgba(222, 180, 253, 0.08);
-	color: rgba(243, 233, 250, 1);
+	background: rgba(223, 180, 253, 0.08);
+	color: rgba(244, 234, 251, 1);
 }
 
 .screenshot-ui-show-pointer-button:hover,
@@ -1873,18 +1802,21 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 .screenshot-ui-type-button:checked:focus {
 	background-color: rgba(219, 201, 232, 0.13);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: rgba(219, 201, 232, 0.13);
+	background-gradient-end: rgba(219, 201, 232, 0.13);
 }
 
 .screenshot-ui-show-pointer-button:insensitive,
 .screenshot-ui-type-button:insensitive {
-	color: rgba(243, 233, 250, 0.38);
+	color: rgba(244, 234, 251, 0.38);
 }
 
 
 /* window selection backround */
 .screenshot-ui-window-selector {
-	background-color: rgba(30, 28, 32, 0.9);
+	background-color: rgba(36, 34, 38, 0.95);
 }
 
 .screenshot-ui-window-selector-window-border {
@@ -1893,21 +1825,24 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* window border when selecting */
 .screenshot-ui-window-selector-window:hover .screenshot-ui-window-selector-window-border {
-	border-color: rgba(183, 111, 235, 1);
+	border-color: rgba(71, 38, 94, 1);
 }
 
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-window-border {
-	border-color: rgba(183, 111, 235, 1);
-	background-color: rgba(70, 38, 94, 0.2);
+	border-color: rgba(71, 38, 94, 1);
+	background-color: rgba(71, 38, 94, 0.2);
 }
 
 .screenshot-ui-window-selector-check { color: transparent; }
 
 /* check icon when selected window */
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
-	color: rgba(53, 35, 66, 1);
-	background-color: rgba(183, 111, 235, 1);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(71, 38, 94, 1);
 	border-radius: 99px;
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: rgba(71, 38, 94, 1);
+	background-gradient-end: rgba(71, 38, 94, 1);
 }
 
 
@@ -1916,25 +1851,25 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	width: 36px;
 	height: 36px;
 	border-radius: 99px;
-	border: 4px rgba(193, 178, 203, 1);
+	border: 4px rgba(193, 179, 204, 1);
 	padding: 4px;
 }
 
 /* capture button */
 .screenshot-ui-capture-button .screenshot-ui-capture-button-circle {
-	background-color: rgba(193, 178, 203, 1);
+	background-color: rgba(193, 179, 204, 1);
 	transition-duration: 100ms;
 	border-radius: 99px;
 }
 
 .screenshot-ui-capture-button .screenshot-ui-capture-button-circle:hover,
 .screenshot-ui-capture-button .screenshot-ui-capture-button-circle:focus {
-	background-color: rgba(181, 163, 193, 1);
+	background-color: rgba(181, 163, 194, 1);
 }
 
 .screenshot-ui-capture-button:hover .screenshot-ui-capture-button-circle,
 .screenshot-ui-capture-button:focus .screenshot-ui-capture-button-circle {
-	background-color: rgba(181, 163, 193, 1);
+	background-color: rgba(181, 163, 194, 1);
 }
 
 /* capture button when Screencast */
@@ -1954,7 +1889,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* screenshot / screencast buttons section */
 .screenshot-ui-shot-cast-container {
-	background-color: rgba(222, 180, 253, 0.08);
+	background-color: rgba(223, 180, 253, 0.08);
 	border-radius: 99px;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
@@ -1962,6 +1897,7 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 /* screenshot / screencast buttons */
 .screenshot-ui-shot-cast-button {
 	background-color: transparent;
+	color: rgba(244, 234, 251, 0.67);
 	border-radius: 99px;
 	transition-duration: 100ms;
 }
@@ -1974,8 +1910,8 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 .screenshot-ui-shot-cast-button:checked {
-	background-color: rgba(193, 178, 203, 1);
-	color: rgba(28, 7, 43, 0.87);
+	background-color: rgba(193, 179, 204, 1);
+	color: rgba(29, 7, 44, 0.87);
 }
 
 .screenshot-ui-area-indicator-shade {
@@ -2007,8 +1943,8 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* tooltip for elements */
 .screenshot-ui-tooltip {
-	color: rgba(243, 233, 250, 1);
-	background-color: rgba(30, 28, 32, 0.9);
+	color: rgba(244, 234, 251, 1);
+	background-color: rgba(36, 34, 38, 0.95);
 	padding: 6px 12px;
 	border: 1px solid rgba(255, 255, 255, 0.03);
 	border-radius: 12px;
@@ -2016,26 +1952,16 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 
 
-.window-close, /* close button (Overview - Workspaces - Selected window) */
-.screenshot-ui-close-button { /* close button (Screenshot UI) */
-	background-color: rgba(38, 35, 40, 1);
-	color: rgba(243, 233, 250, 1);
-	border: 1px solid rgba(255, 255, 255, 0.03);
-	border-radius: 99px;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-	transition-duration: 100ms;
-}
-
 .window-close:hover,
 .screenshot-ui-close-button:hover {
-	background-color: rgba(51, 47, 54, 1);
+	background-color: rgba(52, 47, 55, 1);
 }
 /* Search */
 
 
 /* "no results" text */
 .search-statustext {
-  color: rgba(243, 233, 250, 0.38);
+  color: rgba(244, 234, 251, 0.38);
   font-weight: 700;
 }
 
@@ -2045,14 +1971,14 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 	border-radius: 18px;
 	border: none;
-	background-color: rgba(64, 60, 66, 0.2);
-	color: rgba(243, 233, 250, 1);
+	background-color: rgba(64, 61, 67, 0.2);
+	color: rgba(244, 234, 251, 1);
 }
 
 /* provider section label */
 .search-provider-icon .list-search-provider-content .list-search-provider-details {
 	width: 120px;
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 
 .list-search-result,
@@ -2063,11 +1989,11 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 /* search result listitem -> item title (with leading icon) */
 .list-search-result .list-search-result-title {
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 /* search result listitem -> item description */
 .list-search-result .list-search-result-description {
-	color: rgba(243, 233, 250, 0.67);
+	color: rgba(244, 234, 251, 0.67);
 }
 
 .list-search-result:hover,
@@ -2080,15 +2006,15 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 
 .list-search-result:focus,
 .search-provider-icon:focus {
-	background-color: rgba(70, 38, 94, 0.2);
-	box-shadow: inset 0 0 0 1px rgba(193, 178, 203, 1) !important;
+	background-color: rgba(71, 38, 94, 0.2);
+	box-shadow: inset 0 0 0 1px rgba(193, 179, 204, 1) !important;
 
 }
 
 .list-search-result:active,
 .search-provider-icon:active {
 	background-color: rgba(219, 201, 232, 0.13);
-	color: rgba(243, 233, 250, 1);
+	color: rgba(244, 234, 251, 1);
 }
 .modal-dialog-linked-button {
 	margin: 0;
@@ -2099,14 +2025,15 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 }
 .toggle-switch .handle {
 	/* toggle-switch height - handle margin * 2 */
-	width: 14px;
+	width: 12px;
 	height: 14px;
-	margin: 2px;
-	background-color: rgba(243, 233, 250, 0.67);
+	margin: 3px;
+	border-radius: 99px;
+	background-color: rgba(244, 234, 251, 0.67);
 }
 
 .toggle-switch:checked .handle {
-	background-color: rgba(53, 35, 66, 1);
+	background-color: rgba(244, 234, 251, 1);
 }
 
 .dnd-button .toggle-switch .handle {
@@ -2116,3 +2043,11 @@ https://gitlab.gnome.org/GNOME/gnome-shell/-/commit/beb77f58243265a6cc62b720a5b0
 	border-radius: 6px;
 	margin: 3px;
 }
+
+/* Change Show Apps icon to macOS Launchpad icon */
+
+.show-apps .show-apps-icon {
+    color: transparent;
+    background-image: url("./launchpad.png");
+    background-size: contain;
+  }

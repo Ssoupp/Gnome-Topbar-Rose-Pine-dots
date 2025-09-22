@@ -38,7 +38,7 @@
                  visibility: visible;
                  fill: none;
                  fill-opacity: 1;
-                 stroke: rgba(243, 233, 250, 0.38);
+                 stroke: rgba(244, 234, 251, 0.38);
                  stroke-width: 2;
                  stroke-linecap: butt;
                  stroke-linejoin: round;
@@ -56,7 +56,7 @@
                 visibility: visible;
                 fill: none;
                 fill-opacity: 1;
-                stroke: rgba(183, 111, 235, 1);
+                stroke: rgba(71, 38, 94, 1);
                 stroke-width: 2;
                 stroke-linecap: butt;
                 stroke-linejoin: round;
